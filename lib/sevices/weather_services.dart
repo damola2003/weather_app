@@ -12,7 +12,7 @@ class WeatherServices {
     String cityName = '';
     final response = await http.get(
       Uri.parse(
-          "https://api.openweathermap.org/data/2.5/forecast?$cityName&cnt=5&appid=530471d7684105976ffda1e35b8474ae&units=metric"),
+          "https://api.openweathermap.org/data/2.5/forecast?$cityName&cnt=5&appid=?&units=metric"),
     );
 
     try {
